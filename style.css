@@ -1,0 +1,33 @@
+  body{
+  background-image: url(background.jpg);  
+  }
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    animation-name: glow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  .heading_div
+  {
+    background: linear-gradient(to right,green,blue,red,orange) ; 
+    border-radius: 20px; 
+    color: whitesmoke;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ @keyframes glow {
+  25%{box-shadow:2px 4px 350px magenta;}
+  50%{box-shadow:2px 4px 350px blueviolet;}
+  75%{box-shadow:2px 4px 350px red;}
+  100%{box-shadow:2px 4px 350px blue;}
+ }
